@@ -1,14 +1,41 @@
 {
-  "name": "battle-ship-game",
+  "name": "testtask",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@azimutlabs/eslint-config": "^0.2.2",
+    "@emotion/core": "^10.1.1",
+    "@emotion/styled": "^10.0.27",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/facepaint": "^1.2.1",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.7",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "babel-eslint": "^10.1.0",
+    "bootstrap-4-grid": "^3.4.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-array-func": "^3.1.6",
+    "eslint-plugin-functional": "^3.0.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^23.17.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "eslint-plugin-simple-import-sort": "^5.0.3",
+    "facepaint": "^1.2.1",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
+    "typescript": "^4.0.5",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -19,8 +46,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "@azimutlabs"
     ]
   },
   "browserslist": {
